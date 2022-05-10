@@ -1,3 +1,30 @@
-h1 {
-  color: blue;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: repeat(5, 1fr);
+  height: 100vh;
+}
+
+.nav {
+  border: 2px solid blue;
+  grid-row: 1 / end;
+}
+
+.header {
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.your-projects {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  border: 1px solid orange;
 }
