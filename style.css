@@ -63,6 +63,11 @@ span {
   margin-bottom: 1.2em;
 }
 
+#main-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .user-account {
   display: flex;
   align-items: center;
